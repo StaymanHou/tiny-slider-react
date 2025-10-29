@@ -6,7 +6,6 @@
   "scripts": {
     "build": "npx babel lib -d build",
     "build:watch": "npx babel lib -w -d build",
-    "prepare": "npm run build",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**"
   },
